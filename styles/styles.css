@@ -1,5 +1,110 @@
 @import url("_reset.css");
 
-.my-class {
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container-boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.our-sponsors {
+  margin: 0.5%;
+}
+
+.title-box {
+  text-transform: uppercase;
+  line-height: 1.5rem;
   font-weight: bold;
 }
+
+.image-box {
+  width: 100%;
+  margin: 3% 0;
+}
+
+.footer-box {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+}
+
+.description-box {
+  line-height: 2rem;
+  margin-bottom: 10%;
+}
+
+.container-boxes .blue-box .description-box a {
+  color: white;
+}
+
+.list-box {
+  line-height: 2rem;
+}
+
+.container-boxes .blue-box .list-box li a {
+  color: white;
+}
+
+.footer-box .button-box {
+  width: auto;
+  background: white;
+  color: #20a9e5;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 3% 5%;
+  text-transform: uppercase;
+  margin-right: 5%;
+}
+
+.container-boxes .blue-box {
+  width: 15%;
+  background: #20a9e5;
+  color: white;
+  margin: 0.5%;
+  border: 10px solid #50baea;
+  padding: 1%;
+  position: relative;
+}
+
+.container-boxes .yellow-box {
+  width: 15%;
+  background: #ffd521;
+  color: white;
+  margin: 0.5%;
+  border: 10px solid #ffde56;
+  padding: 1%;
+  color: black;
+  position: relative;
+}
+
+.container-boxes .yellow-box .button-box {
+  color: black;
+}
+
+.our-sponsors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-sponsors .sponsors-label{
+  width: 60%;
+  margin-top: 2%;
+  text-transform: uppercase;
+}
+.our-sponsors .sponsors-logo {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  padding: 2% 0;
+}
+  
