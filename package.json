@@ -1,0 +1,22 @@
+{
+  "name": "html-mock",
+  "version": "1.0.0",
+  "description": "simple mock",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daosgc/html_mock.git"
+  },
+  "author": "Darwin Gualotuña",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daosgc/html_mock/issues"
+  },
+  "homepage": "https://github.com/daosgc/html_mock#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}
